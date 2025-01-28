@@ -33,7 +33,7 @@ const columns = [
   },
 ];
 
-const DeploymentReports = () => {
+const Reports = () => {
   const table = useReactTable({
     data,
     columns,
@@ -72,4 +72,4 @@ const DeploymentReports = () => {
   );
 };
 
-export default DeploymentReports;
+export default Reports;
