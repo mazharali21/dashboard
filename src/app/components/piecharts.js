@@ -15,7 +15,7 @@ const data = [
 
 const PiChart = () => {
   return (
-    <div className="flex">
+    <div >
 
       <ResponsiveContainer width="100%" height={400}>
         <RadialBarChart innerRadius="15%" outerRadius="80%" barSize={40} data={data}> 
